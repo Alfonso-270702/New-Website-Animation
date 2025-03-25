@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Croissant+One:regular);
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00ffaa;
+  --color-secondary: #00ff60;
+  --color-texlight: #a7a7a7;
+  --color-bgPrimary: #020010;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100vh;
+  background: #020010;
+  font-family: "Croissant One", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
